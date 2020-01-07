@@ -57,6 +57,6 @@ public class JpaMappingTest {
         assertThat(board.getTitle(), is(boardTestTitle));
         assertThat(board.getSubTitle(), is("Subtest"));
         assertThat(board.getContent(), is("Contentest"));
-        assertThat(board.getBoardType(), is(BoardType.free));
+        assertThat(board.getBoardtype(), is(BoardType.free));
     }
 }
